@@ -1,4 +1,4 @@
-### Backup for gentoo, i3, vim and personal config files
+### Laptop backup for gentoo, i3, vim and personal config files
 
 #### Related:
 
