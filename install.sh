@@ -41,6 +41,7 @@ if [[ $# == 1 ]]; then
         systemctl enable betterlockscreen@$USER
         systemctl enable xow.service
         systemctl enable ratbagd.service
+        systemctl enable libvirtd.service
 
         ln -s /home/petrus/.zshrc /root/.zshrc
 
