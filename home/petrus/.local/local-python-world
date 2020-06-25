@@ -1,0 +1,13 @@
+certifi
+click
+docopt
+Flask
+future
+itsdangerous
+Markdown
+path-and-address
+pycrypto
+pynat
+python-telegram-bot
+Werkzeug
+pyowm
