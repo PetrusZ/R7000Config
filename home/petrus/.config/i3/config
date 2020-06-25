@@ -307,6 +307,16 @@ bindsym XF86AudioMute exec amixer -q -D pulse sset Master toggle
 # bindsym XF86AudioLowerVolume exec "amixer sset 'Master' 5%- unmute"
 # bindsym XF86AudioMute exec amixer -q set Master toggle
 
+# 亮度
+bindsym XF86MonBrightnessUp exec light -A 5
+bindsym XF86MonBrightnessDown exec light -U 5
+
+# Audio
+bindsym XF86AudioPlay exec mpc --host=/home/petrus/.mpd/mpd.socket toggle
+bindsym XF86AudioStop exec mpc --host=/home/petrus/.mpd/mpd.socket stop
+bindsym XF86AudioPrev exec mpc --host=/home/petrus/.mpd/mpd.socket prev
+bindsym XF86AudioNext exec mpc --host=/home/petrus/.mpd/mpd.socket next
+
 # 截图
 bindsym Print exec flameshot gui -p /home/petrus/Pictures/Screenshot -d 200
 bindsym Control+Print exec flameshot full -c -p /home/petrus/Pictures/Screenshot
@@ -427,14 +437,15 @@ mode "$mode_gaps_outer" {
 }
 
 # Shutdown, Suspend, Lock (e)
-set $mode_system System (l) lock, (e) logout, (s) suspend, (r) reboot, (h) shutdown
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (p) poweroff
 mode "$mode_system" {
   bindsym l exec betterlockscreen -l dim, mode "default"
   bindsym e exec i3-msg exit, mode "default"
   # bindsym s exec betterlockscreen -s dim, mode "default"
   bindsym s exec systemctl suspend, mode "default"
   bindsym r exec systemctl reboot, mode "default"
-  bindsym h exec systemctl poweroff, mode "default"
+  bindsym h exec systemctl hibernate, mode "default"
+  bindsym p exec systemctl poweroff, mode "default"
 
   # back to normal: Enter or Escape
   bindsym Return mode "default"
@@ -464,7 +475,8 @@ bindsym $mod+Control+p mode "$mode_mpd"
 #状态栏
 bar {
     position bottom
-    tray_output none
+    # tray_output none
+    tray_output primary
     status_command py3status --dbus-notify -c ~/.config/i3/i3status.conf
     # status_command i3blocks -c ~/.config/i3/i3blocks.conf
 
@@ -517,6 +529,7 @@ exec --no-startup-id telegram-desktop
 exec --no-startup-id hexchat
 exec --no-startup-id unclutter
 exec --no-startup-id goldendict
+exec --no-startup-id qv2ray
 exec --no-startup-id xautolock -time 15 -notify 10 -notifier "notify-send" -locker "/home/petrus/Scripts/auto_lock_screen.sh"
 exec --no-startup-id /usr/bin/gpg-agent --daemon
 

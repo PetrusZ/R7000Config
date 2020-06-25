@@ -141,6 +141,9 @@ net-misc/remmina
 net-misc/sshpass
 net-misc/whois
 net-proxy/privoxy
+net-proxy/qv2ray
+net-proxy/qvplugin-ssr
+net-proxy/v2rayxplus
 net-wireless/iw
 sci-mathematics/calc
 sys-apps/bat
@@ -190,6 +193,7 @@ x11-misc/betterlockscreen
 x11-misc/compton
 x11-misc/dunst
 x11-misc/lightdm
+x11-misc/optimus-manager
 x11-misc/pcmanfm
 x11-misc/py3status
 x11-misc/rofi

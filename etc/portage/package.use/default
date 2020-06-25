@@ -32,6 +32,7 @@ x11-misc/lightdm -gnome
 x11-misc/rofi windowmode
 x11-misc/dunst dunstify
 x11-misc/compton python_targets_python3_6
+x11-misc/optimus-manager lightdm
 x11-terms/gnome-terminal -gnome-shell -nautilus
 sys-apps/systemd cgroup-hybrid
 sys-apps/portage rsync-verify

@@ -29,7 +29,8 @@ GRUB_DISTRIBUTOR="Gentoo"
 GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd"
 
 # Append parameters to the linux kernel command line for non-recovery entries
-GRUB_CMDLINE_LINUX_DEFAULT="iommu=off acpi_backlight=none"
+GRUB_CMDLINE_LINUX_DEFAULT="iommu=off resume=UUID=5ca008a8-bc36-4704-84ae-50100d349ec5 resume_offset=8556724"
+
 
 # Uncomment to disable graphical terminal (grub-pc only)
 #GRUB_TERMINAL=console
