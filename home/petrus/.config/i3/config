@@ -535,7 +535,7 @@ exec --no-startup-id /usr/bin/gpg-agent --daemon
 
 #---wallpaper---
 # static mode
-exec --no-startup-id feh -Z --bg-scale /home/petrus/Pictures/gentoo/wall.png
+exec --no-startup-id feh -Z --bg-fill /home/petrus/Pictures/amd/ryzen.png
 # random mode
 # exec ~/.config/i3/wallpaper.sh &
 

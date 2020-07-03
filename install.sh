@@ -43,6 +43,8 @@ if [[ $# == 1 ]]; then
         systemctl enable ratbagd.service
         systemctl enable libvirtd.service
 
+        systemd-hwdb update
+
         ln -s /home/petrus/.zshrc /root/.zshrc
 
         eselect pinentry set pinentry-gtk-2
