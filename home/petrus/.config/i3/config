@@ -477,6 +477,7 @@ bar {
     position bottom
     # tray_output none
     tray_output primary
+    tray_output eDP-1-1
     status_command py3status --dbus-notify -c ~/.config/i3/i3status.conf
     # status_command i3blocks -c ~/.config/i3/i3blocks.conf
 
@@ -490,7 +491,7 @@ bar {
     # separator_symbol "//"
     # strip_workspace_numbers yes
     # 非i3-gaps请删除下面这一行
-    height 25
+    height 24
 
     # 取消状态栏鼠标滚动
     bindsym button4 nop

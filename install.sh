@@ -42,6 +42,9 @@ if [[ $# == 1 ]]; then
         systemctl enable xow.service
         systemctl enable ratbagd.service
         systemctl enable libvirtd.service
+        systemctl enable optimus-manager.service
+        systemctl enable tlp.service
+        systemctl mask systemd-rfkill.socket systemd-rfkill.service
 
         systemd-hwdb update
 

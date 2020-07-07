@@ -26,6 +26,7 @@ app-i18n/fcitx-cloudpinyin
 app-i18n/fcitx-configtool
 app-i18n/fcitx-libpinyin
 app-i18n/fcitx-qt5
+app-laptop/tlp
 app-misc/abook
 app-misc/colordiff
 app-misc/evemu
@@ -105,6 +106,7 @@ media-fonts/noto-emoji
 media-fonts/powerline-symbols
 media-fonts/source-code-pro
 media-fonts/source-han-sans
+media-fonts/ubuntu-font-family
 media-gfx/feh
 media-gfx/flameshot
 media-gfx/scrot
@@ -174,7 +176,9 @@ sys-kernel/gentoo-kernel-bin
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-kernel/xow
+sys-kernel/zenpower
 sys-power/acpi
+sys-power/acpi_call
 sys-power/cpupower
 sys-power/powertop
 sys-power/suspend
@@ -194,6 +198,7 @@ x11-misc/compton
 x11-misc/dunst
 x11-misc/lightdm
 x11-misc/optimus-manager
+x11-misc/optimus-manager::gig
 x11-misc/pcmanfm
 x11-misc/py3status
 x11-misc/rofi
