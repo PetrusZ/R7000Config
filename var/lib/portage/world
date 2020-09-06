@@ -59,7 +59,6 @@ app-shells/powerline
 app-shells/zsh
 app-shells/zsh-completions
 app-text/dos2unix
-app-text/evince
 app-text/goldendict
 app-text/pandoc
 app-text/sdcv
@@ -129,7 +128,6 @@ net-analyzer/wireshark
 net-dns/bind-tools
 net-fs/cifs-utils
 net-fs/nfs-utils
-net-fs/nfstest
 net-ftp/ncftp
 net-im/telegram-desktop
 net-irc/hexchat
@@ -173,10 +171,8 @@ sys-fs/fuse
 sys-fs/ntfs3g
 sys-kernel/genkernel
 sys-kernel/gentoo-kernel-bin
-sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-kernel/xow
-sys-kernel/zenpower
 sys-power/acpi
 sys-power/acpi_call
 sys-power/cpupower

@@ -316,3 +316,16 @@ sys-apps/util-linux static-libs
 # required by @selected
 # required by @world (argument)
 >=x11-libs/libdrm-2.4.102 video_cards_radeon
+# required by dev-python/setuptools-46.4.0-r2::gentoo
+# required by dev-python/typing-3.7.4.3::gentoo
+# required by dev-python/m2crypto-0.36.0::gentoo[python_targets_python2_7]
+# required by net-wireless/crda-4.14::gentoo
+# required by net-wireless/wpa_supplicant-2.9-r2::gentoo
+# required by net-misc/networkmanager-1.26.2::gentoo[-iwd,wifi]
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools_scm-4.1.2 python_targets_python3_6
+# required by net-im/telegram-desktop-2.2.0-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtgui-5.15.0-r1 wayland

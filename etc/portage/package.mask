@@ -1,3 +1,5 @@
+*/*::gentoo-zh
+*/*::flatpak-overlay
 # www-client/chromium
 media-sound/pulseaudio::jorgicio
 x11-themes/adapta-gtk-theme::jorgicio
@@ -5,7 +7,8 @@ x11-themes/adapta-gtk-theme::4nykey
 dev-go/go-md2man::go-overlay
 media-libs/libuninameslist::4nykey
 media-gfx/fontforge::4nykey
-media-libs/libuninameslist::gentoo-zh
-app-i18n/man-pages-zh_CN::gentoo-zh
+# media-libs/libuninameslist::gentoo-zh
+# app-i18n/man-pages-zh_CN::gentoo-zh
+# x11-misc/i3lock-color::gentoo-zh
 #media-fonts/source-han-sans::4nykey
 #>sys-kernel/gentoo-sources-4.15.2
