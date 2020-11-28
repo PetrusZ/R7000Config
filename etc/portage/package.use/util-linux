@@ -329,3 +329,14 @@ sys-apps/util-linux static-libs
 # required by @selected
 # required by @world (argument)
 >=dev-qt/qtgui-5.15.0-r1 wayland
+# required by gnome-base/gnome-keyring-3.36.0::gentoo
+# required by app-crypt/libsecret-0.20.3::gentoo
+# required by net-vpn/networkmanager-openvpn-1.8.12::gentoo[gtk]
+# required by networkmanager-openvpn (argument)
+>=app-crypt/pinentry-1.1.0-r3 gnome-keyring
+# required by dev-python/PyQt5-5.15.0-r1::gentoo[multimedia]
+# required by dev-python/pyudev-0.22.0::gentoo[qt5,-test]
+# required by x11-misc/py3status-3.29::gentoo[udev]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtmultimedia-5.15.1 widgets

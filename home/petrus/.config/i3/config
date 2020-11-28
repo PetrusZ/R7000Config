@@ -132,10 +132,10 @@ set $WS3 3 Chat
 set $WS4 4 File
 set $WS5 5 Media
 set $WS6 6 Game
-set $WS7 7 Download
+set $WS7 7 VM
 set $WS8 8 Code
-set $WS9 9 Trash
-set $WS0 0 Main
+set $WS9 9 Remote
+set $WS0 0 Trash
 
 #---switch workspace---
 
@@ -176,13 +176,16 @@ assign [class="Telegram"] $WS3
 assign [class="Hexchat"] $WS3
 assign [class="Pcmanfm"] $WS4
 assign [class="mpv"] $WS5
+assign [class="vlc"] $WS5
+assign [class="Spotify"] $WS5
 assign [class="Steam"] $WS6
-assign [class="GoldenDict"] $WS9
-assign [class="Nextcloud"] $WS9
+assign [class="org.remmina.Remmina"] $WS9
+assign [class="GoldenDict"] $WS0
+assign [class="Nextcloud"] $WS0
 
 # assign [class="qBittorrent"] $WS7
 
-# for_window [title=".*\.md - Chromium" class="Chromium"] move container to workspace $WS1
+# for_window [title=".*\.md .* - Chromium" class="Chromium"] move container to workspace $WS1
 for_window [class="libreoffice.*"] move to workspace $WS4
 for_window [class="Spotify"] move to workspace $WS5
 for_window [class="Hexchat"] layout tabbed
@@ -479,6 +482,7 @@ bar {
     tray_output primary
     tray_output eDP-1-1
     tray_output eDP-1-2
+    tray_output DP-2
     status_command py3status --dbus-notify -c ~/.config/i3/i3status.conf
     # status_command i3blocks -c ~/.config/i3/i3blocks.conf
 
@@ -525,13 +529,13 @@ exec --no-startup-id conky -c ~/.config/conky/conky.shortcuts
 exec --no-startup-id fcitx
 exec --no-startup-id nextcloud
 exec --no-startup-id chromium
-#exec --no-startup-id gnome-terminal
 exec --no-startup-id alacritty
 exec --no-startup-id telegram-desktop
 exec --no-startup-id hexchat
 exec --no-startup-id unclutter
 exec --no-startup-id goldendict
-exec --no-startup-id qv2ray
+exec --no-startup-id sleep 3 && qv2ray
+exec --no-startup-id nm-applet
 exec --no-startup-id xautolock -time 15 -notify 10 -notifier "notify-send" -locker "/home/petrus/Scripts/auto_lock_screen.sh"
 exec --no-startup-id /usr/bin/gpg-agent --daemon
 

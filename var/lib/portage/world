@@ -59,6 +59,7 @@ app-shells/powerline
 app-shells/zsh
 app-shells/zsh-completions
 app-text/dos2unix
+app-text/evince
 app-text/goldendict
 app-text/pandoc
 app-text/sdcv
@@ -82,17 +83,21 @@ dev-python/python-mpd
 dev-python/pytz
 dev-python/tzlocal
 dev-python/yapf
+dev-qt/qt-creator
 dev-util/StarUML
 dev-util/android-tools
+dev-util/cargo-ebuild
 dev-util/ccache
 dev-util/cppcheck
 dev-util/ctags
 dev-util/debugedit
 dev-util/global
+dev-util/goland
 dev-util/strace
 dev-util/vint
 dev-vcs/git-extras
 games-roguelike/nethack
+gnome-extra/nm-applet
 lxde-base/lxappearance
 mail-client/mutt-wizard
 mail-client/neomutt
@@ -143,6 +148,7 @@ net-misc/whois
 net-proxy/privoxy
 net-proxy/qv2ray
 net-proxy/qvplugin-ssr
+net-vpn/networkmanager-openvpn
 net-wireless/iw
 sci-mathematics/calc
 sys-apps/bat
@@ -183,6 +189,7 @@ sys-process/glances
 sys-process/htop
 sys-process/lsof
 www-client/chromium
+www-client/google-chrome
 www-client/lynx
 x11-apps/xev
 x11-apps/xinput
@@ -193,7 +200,6 @@ x11-misc/betterlockscreen
 x11-misc/compton
 x11-misc/dunst
 x11-misc/lightdm
-x11-misc/optimus-manager
 x11-misc/optimus-manager::gig
 x11-misc/pcmanfm
 x11-misc/py3status

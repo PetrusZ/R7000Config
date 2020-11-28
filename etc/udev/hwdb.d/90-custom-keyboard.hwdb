@@ -1,3 +1,7 @@
 evdev:input:b0003v048DpC100*
   KEYBOARD_KEY_70039=leftctrl
   KEYBOARD_KEY_700e0=capslock
+
+evdev:input:b0003v04D9p4545*
+  KEYBOARD_KEY_70039=leftctrl
+  KEYBOARD_KEY_700e0=capslock
