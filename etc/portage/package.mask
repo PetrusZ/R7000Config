@@ -11,3 +11,11 @@ media-gfx/fontforge::4nykey
 >media-libs/alsa-topology-conf-1.2.3
 >media-libs/alsa-ucm-conf-1.2.3
 >media-sound/alsa-utils-1.2.3
+>media-video/mpv-0.33.0
+#>x11-drivers/nvidia-drivers-455.38-r1
+# >=sys-kernel/gentoo-kernel-bin-5.11.2
+# >=sys-kernel/gentoo-kernel-5.11.2
+# >=sys-kernel/vanilla-kernel-5.11.2
+sys-kernel/calculate-sources
+virtual/linux-sources::calculate
+#>=virtual/dist-kernel-5.11.2

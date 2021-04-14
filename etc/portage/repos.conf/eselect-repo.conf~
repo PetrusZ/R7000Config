@@ -1,18 +1,15 @@
 # created by eselect-repo
 
-[oboeverlay]
-location = /var/db/repos/oboeverlay
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/oboeverlay.git
-
 
 [4nykey]
+priority = 10
 location = /var/db/repos/4nykey
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/4nykey.git
 
 
 [jorgicio]
+priority = 10
 location = /var/db/repos/jorgicio
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/jorgicio.git
@@ -21,41 +18,47 @@ sync-uri = https://github.com/gentoo-mirror/jorgicio.git
 
 
 [matrix]
+priority = 10
 location = /var/db/repos/matrix
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/matrix.git
 
 
 [gig]
+priority = 10
 location = /var/db/repos/gig
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/gig.git
 
 
 [benzene-overlay]
+priority = 10
 location = /var/db/repos/benzene-overlay
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/benzene-overlay.git
 
 [guru]
+priority = 10
 location = /var/db/repos/guru
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/guru.git
 
-[flatpak-overlay]
-priority = 50
-location = /var/db/repos/flatpak-overlay
-sync-type = git
-sync-uri = https://github.com/fosero/flatpak-overlay.git
-
-
 [gentoo-zh]
-priority = 200
+priority = 10
 location = /var/db/repos/gentoo-zh
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/gentoo-zh.git
 
-[linxon]
-location = /var/db/repos/linxon
+
+[tlp]
+priority = 10
+location = /var/db/repos/tlp
 sync-type = git
-sync-uri = https://github.com/gentoo-mirror/linxon.git
+sync-uri = https://github.com/dywisor/tlp-portage.git
+
+[calculate]
+location = /var/db/repos/calculate
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/calculate.git
+
+
