@@ -15,6 +15,7 @@ app-dicts/stardict-langdao-zh-en-gb
 app-dicts/stardict-oxford-en-zh-gb
 app-dicts/translator
 app-editors/emacs
+app-editors/ghex
 app-editors/gvim
 app-editors/vim
 app-editors/vscodium-bin
@@ -80,7 +81,7 @@ dev-python/flake8
 dev-python/pip
 dev-python/pygments
 dev-python/pylint
-dev-python/python-language-server
+dev-python/python-lsp-server
 dev-python/python-mpd
 dev-python/pytz
 dev-python/tzlocal
@@ -97,7 +98,6 @@ dev-util/debugedit
 dev-util/global
 dev-util/goland
 dev-util/strace
-dev-util/vint
 dev-vcs/git-extras
 games-roguelike/nethack
 gnome-extra/nm-applet
@@ -123,6 +123,7 @@ media-sound/alsa-utils
 media-sound/mpc
 media-sound/mpd
 media-sound/ncmpcpp
+media-sound/scream
 media-sound/spotify
 media-video/mpv
 media-video/vlc
@@ -139,6 +140,7 @@ net-fs/cifs-utils
 net-fs/nfs-utils
 net-ftp/ncftp
 net-im/telegram-desktop
+net-im/wechat-uos
 net-irc/hexchat
 net-irc/weechat
 net-misc/aria2
@@ -170,6 +172,7 @@ sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-apps/yarn
 sys-boot/grub:2
+sys-boot/os-prober
 sys-boot/woeusb
 sys-devel/clang
 sys-devel/gcc

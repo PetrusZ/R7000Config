@@ -532,16 +532,16 @@ exec --no-startup-id compton -cb --config ~/.config/compton.conf
 exec --no-startup-id conky -c ~/.config/conky/conky
 exec --no-startup-id conky -c ~/.config/conky/conky.shortcuts
 exec --no-startup-id fcitx
-exec --no-startup-id nextcloud
+# exec --no-startup-id nextcloud
 exec --no-startup-id chromium
 exec --no-startup-id alacritty
 exec --no-startup-id telegram-desktop
 # exec --no-startup-id hexchat
 exec --no-startup-id unclutter
-exec --no-startup-id barrierc --enable-crypto 192.168.3.30
+exec --no-startup-id barrierc --enable-crypto 192.168.3.11
 exec --no-startup-id goldendict
 exec --no-startup-id optimus-manager-qt
-exec --no-startup-id sleep 3 && qv2ray
+# exec --no-startup-id sleep 3 && qv2ray
 exec --no-startup-id nm-applet
 exec --no-startup-id xiccd
 exec --no-startup-id xautolock -time 15 -notify 10 -notifier "notify-send" -locker "/home/petrus/Scripts/auto_lock_screen.sh"

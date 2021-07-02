@@ -29,7 +29,7 @@ GRUB_DISTRIBUTOR="Gentoo"
 GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd"
 
 # Append parameters to the linux kernel command line for non-recovery entries
-GRUB_CMDLINE_LINUX_DEFAULT="resume=UUID=e2765397-fc9e-49c0-9443-2146ddd2b656 resume_offset=16400"
+GRUB_CMDLINE_LINUX_DEFAULT="resume=UUID=e2765397-fc9e-49c0-9443-2146ddd2b656 resume_offset=16400 nvidia.NVreg_RegistryDwords=EnableBrightnessControl=1 iommu=pt vfio-pci.ids=10de:1f15,10de:10f9,10de:1ada,10de:1adb rd.driver.pre=vfio_pci"
 
 # Uncomment to disable graphical terminal (grub-pc only)
 #GRUB_TERMINAL=console
@@ -71,3 +71,5 @@ GRUB_CMDLINE_LINUX_DEFAULT="resume=UUID=e2765397-fc9e-49c0-9443-2146ddd2b656 res
 # This is useful, for example, to allow users who can't see the screen
 # to know when they can make a choice on the menu.
 #GRUB_INIT_TUNE="60 800 1"
+
+GRUB_DISABLE_OS_PROBER=false
