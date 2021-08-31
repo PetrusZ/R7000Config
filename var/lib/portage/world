@@ -7,6 +7,7 @@ app-admin/sysstat
 app-arch/file-roller
 app-arch/p7zip
 app-arch/rar
+app-backup/snapper
 app-benchmarks/iozone
 app-benchmarks/sysbench
 app-dicts/stardict-ecdict-en-zh
@@ -21,6 +22,7 @@ app-editors/vim
 app-editors/vscodium-bin
 app-emulation/docker
 app-emulation/docker-compose
+app-emulation/looking-glass
 app-emulation/virt-manager
 app-eselect/eselect-repository
 app-i18n/fcitx
@@ -179,6 +181,7 @@ sys-devel/gcc
 sys-devel/gdb
 sys-firmware/intel-microcode
 sys-fs/btrfs-progs
+sys-fs/btrfsmaintenance
 sys-fs/dosfstools
 sys-fs/fuse
 sys-fs/ntfs3g
@@ -211,7 +214,6 @@ x11-misc/dunst
 x11-misc/lightdm
 x11-misc/optimus-manager
 x11-misc/optimus-manager-qt
-x11-misc/pcmanfm
 x11-misc/py3status
 x11-misc/rofi
 x11-misc/unclutter
@@ -226,3 +228,9 @@ x11-themes/arc-theme
 x11-themes/materia-theme
 x11-themes/sound-theme-freedesktop
 x11-wm/i3-gaps
+xfce-base/thunar
+xfce-extra/thunar-archive-plugin
+xfce-extra/thunar-media-tags-plugin
+xfce-extra/thunar-vcs-plugin
+xfce-extra/thunar-volman
+xfce-extra/tumbler

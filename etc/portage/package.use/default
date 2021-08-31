@@ -38,10 +38,12 @@ x11-misc/dunst dunstify
 x11-misc/compton python_targets_python3_6
 x11-misc/optimus-manager lightdm
 x11-terms/gnome-terminal -gnome-shell -nautilus
+xfce-extra/thunar-vcs-plugin -subversion
+xfce-extra/tumbler ffmpeg raw
 sys-apps/systemd cgroup-hybrid
 sys-apps/portage rsync-verify
 sys-boot/woeusb minimal
 sys-devel/gcc lto pgo
 sys-kernel/gentoo-sources experimental symlink
-www-client/chromium widevine jumbo-build -gnome-keyring
+www-client/chromium vaapi widevine jumbo-build -gnome-keyring
 media-libs/harfbuzz icu

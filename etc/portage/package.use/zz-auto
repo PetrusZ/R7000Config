@@ -410,3 +410,27 @@ sys-apps/util-linux static-libs
 # required by app-emulation/looking-glass-0_beta3::local
 # required by looking-glass (argument)
 >=media-libs/libsdl2-2.0.14-r2 gles2
+# required by x11-libs/pango-1.48.7-r1::gentoo
+# required by www-client/chromium-92.0.4515.80::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/freetype-2.10.4 harfbuzz
+# required by dev-python/requests-2.26.0::gentoo
+# required by dev-python/sphinx-4.1.1::gentoo
+# required by app-emulation/qemu-6.0.0-r52::gentoo[doc]
+# required by app-emulation/libvirt-7.5.0::gentoo[qemu]
+# required by dev-python/libvirt-python-7.5.0::gentoo
+# required by app-emulation/virt-manager-3.2.0::gentoo[python_single_target_python3_9]
+# required by @selected
+# required by @world (argument)
+>=dev-python/charset_normalizer-2.0.3 python_targets_python3_8
+# required by dev-libs/libappindicator-12.10.1_p20200706::gentoo
+# required by net-misc/remmina-1.4.20::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libdbusmenu-16.04.0-r1 gtk3
+# required by dev-ruby/xmlrpc-0.3.2-r1::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-2.7.4::gentoo
+# required by dev-ruby/power_assert-2.0.1::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/test-unit-3.4.4::gentoo[ruby_targets_ruby27]
+>=dev-ruby/webrick-1.7.0 ruby_targets_ruby27
